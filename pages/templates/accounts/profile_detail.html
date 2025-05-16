@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Mi perfil</h1>
+
+  <img src="{{ object.avatar.url }}" alt="Avatar" width="150"><br><br>
+
+  <p><strong>Usuario:</strong> {{ object.user.username }}</p>
+  <p><strong>Email:</strong> {{ object.user.email }}</p>
+  <p><strong>Nombre:</strong> {{ object.nombre }}</p>
+  <p><strong>Apellido:</strong> {{ object.apellido }}</p>
+  <p><strong>Biografía:</strong> {{ object.biografia }}</p>
+  <p><strong>Fecha de nacimiento:</strong> {{ object.fecha_nacimiento }}</p>
+
+  <a href="{% url 'edit_profile' %}">Editar perfil</a>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <p style="color: green;">Este es el formulario</p>
+
+  {% if form.errors %}
+    <p style="color: red;">Hay errores en el formulario:</p>
+    {{ form.errors }}
+  {% endif %}
+
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Publicar</button>
+  </form>
+{% endblock %}
+
