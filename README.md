@@ -104,8 +104,12 @@ Esto evita subir la base de datos y archivos pesados innecesarios.
 
 ---
 
+## 🎥 Video de presentación
+
+Podés ver el video demostrativo del blog acá:  
+ [Ver video en Google Drive](https://drive.google.com/file/d/1rhXAiLFqIbksMCubDCq-rGBpNcuM6w4L/view?usp=sharing)
+
 ##  Autoría
 **Sofia Mosquera**  
 Estudiante 
-Proyecto para entrega final del Playground
-
+Proyecto para entrega final del Playground.
